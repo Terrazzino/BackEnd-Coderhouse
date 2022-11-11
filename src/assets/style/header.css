@@ -1,0 +1,15 @@
+.title{
+    animation-name: aparece;
+    animation-duration: 2s;
+}
+
+@keyframes aparece {
+    0%{color: rgba(255, 255, 255, 0);
+    scale: 0;}
+    80%{color:rgb(255, 243, 181);
+    scale: 0.5}
+    90%{color:rgba(255, 255, 255, 0.701);
+    scale:1.2}
+    100%{color:rgb(255, 255, 255);
+        scale:1}
+}
